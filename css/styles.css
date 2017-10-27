@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+h1  {
+  color: black;
+}
+
+h2 {
+  color: balck;
+}
+
+h3  {
+  color: black;
+}
+
+.navigation {
+  text-decoration: none;
+}
+
+.head {
+  color: blue;
+}
