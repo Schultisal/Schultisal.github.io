@@ -11,7 +11,7 @@ h1  {
 }
 
 h2 {
-  color: balck;
+  color: black;
 }
 
 h3  {
@@ -24,4 +24,8 @@ h3  {
 
 .head {
   color: blue;
+}
+
+a {
+  text-decoration: none;
 }
