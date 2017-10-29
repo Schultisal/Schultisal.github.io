@@ -3,32 +3,47 @@
 }
 
 body {
-  background-color: white;
+  background-color: #F8F8FF;
+  text-align: center;
 }
 
-h1  {
+h1 {
   color: black;
   font-family: lato;
   text-align: center;
-
 }
 
 h2 {
   color: black;
+  font-family: lato;
 }
 
 h3  {
   color: black;
 }
 
+p  {
+  font-family: lato;
+}
+
+p.bio_info  {
+  text-align: left;
+}
+
 .navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation ul {
   text-decoration: none;
   font-family: lato;
+  list-style: none;
   color: #000000;
 }
 
-.head {
-  color: blue;
+.navigation li {
+  margin-right: 12px;
 }
 
 a {
@@ -36,16 +51,32 @@ a {
   font-family: lato;
 }
 
-span .adver  {
-  text-decoration: bold;
-}
-
 img.code  {
   padding-left: 5px;
   padding-right: 5px;
+  float: left;
+  padding-top: 5px;
+  margin-left: 90px
 }
 
 img.stock_image {
   padding-left: 5px;
   padding-right: 5px;
+  padding-top: 5px;
+  float: right;
+  margin-right: 90px;
+}
+
+img.larry {
+  float: left;
+}
+
+footer  {
+  float: left;
+}
+
+@media(min-width: 375px) {
+  .navigation ul {
+    display: flex;
+  }
 }
