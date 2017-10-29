@@ -5,7 +5,7 @@ $(function() {
 
 
     function myDropdown() {
-      slideToggle()
+      // slideToggle()
       console.log('clicked button');
     };
 
