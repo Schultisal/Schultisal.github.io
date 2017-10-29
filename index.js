@@ -1,8 +1,12 @@
-$(function).ready(function() {
-// drop down menue in this js file sheet
-// slide-toggle
+$(function() {
+// slide-toggle/dropdown button?
 
-  $("#dropbtn").click(myDropdown)
+  $(".dropbtn").click(myDropdown);
 
+
+    function myDropdown() {
+      slideToggle()
+      console.log('clicked button');
+    };
 
  });

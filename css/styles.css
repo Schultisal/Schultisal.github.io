@@ -51,6 +51,10 @@ a {
   font-family: lato;
 }
 
+ul.bio {
+  list-style: none
+}
+
 img.code  {
   padding-left: 5px;
   padding-right: 5px;
@@ -69,6 +73,8 @@ img.stock_image {
 
 img.larry {
   float: left;
+  padding: 12px 12px 12px 12px;
+
 }
 
 footer  {
