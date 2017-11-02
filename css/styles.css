@@ -22,6 +22,9 @@ h3  {
   color: black;
 }
 
+h4  {
+  text-align: center;}
+
 p  {
   font-family: lato;
 }
@@ -46,13 +49,18 @@ p.bio_info  {
   margin-right: 12px;
 }
 
+button.dropbtn {
+  color: red;
+  padding: 5px 5px;
+}
+
 a {
   text-decoration: none;
   font-family: lato;
 }
 
 ul.bio {
-  list-style: none
+  list-style: none;
 }
 
 ul.organizations  {
